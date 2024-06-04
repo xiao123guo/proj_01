@@ -8,6 +8,7 @@ const pool = mysql.createPool({
   database:'student'
 })
 
+
 // sql
 const executeSQL = (sql,values)=>{
   return new Promise((resolve,reject)=>{
